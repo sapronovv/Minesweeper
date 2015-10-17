@@ -98,6 +98,12 @@
   <ItemGroup>
     <None Include="bin\Debug\mine.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Minesweeper.Core\Minesweeper.Core.csproj">
+      <Project>{36d913e3-eb35-4f4b-b9f0-688cfd2251c8}</Project>
+      <Name>Minesweeper.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
